@@ -39,6 +39,7 @@ If you liked this project, consider donating to support it ❤️
 - [IncrementalBinaryTree.sol](https://github.com/privacy-scaling-explorations/zk-kit/blob/main/packages/incremental-merkle-tree.sol/contracts/IncrementalBinaryTree.sol)
 
 [circomlibjs](https://github.com/iden3/circomlibjs)
+- [poseidon_opt.js](https://github.com/iden3/circomlibjs/blob/main/src/poseidon_opt.js)
 - [poseidon_gencontract.js](https://github.com/iden3/circomlibjs/blob/main/src/poseidon_gencontract.js)
 
 [snarkjs](https://github.com/iden3/snarkjs)
