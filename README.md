@@ -25,6 +25,11 @@ yarn build
 ## Bug Bounty
 Please report any security issues you find through security@riemann.cash
 
+### Donate
+If you liked this project, consider donating to support it ❤️
+
+[0xD3633f7afa350Ed73c7C51A496738f2CB1a1670e](https://polygonscan.com/address/0xD3633f7afa350Ed73c7C51A496738f2CB1a1670e)(Polygon)
+
 ## Reference
 [openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
 - [IERC20.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol)
@@ -40,3 +45,5 @@ Please report any security issues you find through security@riemann.cash
 
 ## LICENSE
 Riemann Contracts is released under the [MIT License](LICENSE).
+
+Copyright ©2022-2029 [RiemannCash](https://github.com/RiemannCash)
