@@ -14,10 +14,17 @@ module.exports = {
         },
       },
     ],
-  },
-  paths: {
-    artifacts: "./build/artifacts",
-    cache: "./build/cache",
-    sources: "./contracts",
+    overrides: {
+      "contracts/helper/PoseidonT3.sol": {
+        version: "0.8.16",
+        settings: {
+          optimizer: {
+            enabled: true,
+            runs: 9999,
+          },
+          evmVersion: "istanbul",
+        },
+      },
+    },
   },
 }
