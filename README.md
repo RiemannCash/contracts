@@ -1,16 +1,18 @@
-# [Riemann](https://riemann.cash)
-Riemann is based on ZK proof, merkle tree and poseidon algorithm. Riemann focuses on private TX, with divisible deposits, lower fees and faster withdrawals.
+# [RiemannCash](https://riemann.cash)
+RiemannCash focuses on private transaction, with divisible deposits, lower fees and faster withdrawals, which is based on zero-knowledge proof, incremental merkle tree and poseidon algorithm.
 
 ## Motivation
-**Privacy protection** is an inherent feature of the blockchain. **Tornado** was [banned](https://twitter.com/TornadoCash/status/1557048526986780677), and transfers between accounts become traceable under the iron fist of regulators.
+Tornado was [banned](https://twitter.com/TornadoCash/status/1557048526986780677), and transfers between accounts become traceable. BUT **Privacy Protection** is an inherent feature of the blockchain.
 
-Face the power, will we yield? NO WAY!
+Face the regulators, we yield?
 
-[**Riemann**](https://riemann.cash) came into being, which is based on [zero-knowledge proof](https://en.wikipedia.org/wiki/Zero-knowledge_proof), [incremental merkle tree](https://github.com/privacy-scaling-explorations/zk-kit/tree/main/packages/incremental-merkle-tree.sol) and [poseidon algorithm](https://www.poseidon-hash.info). Riemann focuses on private transaction, with divisible deposits, lower fees and faster withdrawals.
+[RiemannCash](https://riemann.cash) focuses on private transaction, with divisible deposits, lower fees and faster withdrawals, which is based on [zero-knowledge proof](https://en.wikipedia.org/wiki/Zero-knowledge_proof), [incremental merkle tree](https://github.com/privacy-scaling-explorations/zk-kit/tree/main/packages/incremental-merkle-tree.sol) and [poseidon algorithm](https://www.poseidon-hash.info).
+
+Using [RiemannCash](https://riemann.cash) means full privacy. When tokens are deposited to Riemann, withdrawn from Riemann, user Txs are fully encapsulated, cuz all Txs will generate zero-knowledge proofs, and withdrawals are initiated by relayers acting as third parties. No one knows the transfer records between your addresses except yourself.
 
 ## Features
 - **Divisible deposits**. A deposit can be split into multiple deposits.
-- **Lower fees**. Only a flat fee and gas fee will be charged. That's mean the fee charged for withdrawing 100U and 10000U is the same.
+- **Lower fees**. Only a flat fee and gas fee will be charged. That's mean the fee charged for withdrawing 100USDC and 10000USDC is the same.
 - **Faster withdrawals**. You can withdraw your fund immediately without a long background process once deposit.
 
 ## Installation
@@ -23,7 +25,7 @@ yarn build
 [Documentation](https://docs.riemann.cash)
 
 ## Bug Bounty
-Please report any security issues you find through security@riemann.cash
+Please report any security issues you find through [security@riemann.cash](mailto:security@riemann.cash)
 
 ### Donate
 If you liked this project, consider donating to support it ❤️
